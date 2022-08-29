@@ -1,0 +1,311 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 10px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.main_1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.main_2 {
+    margin-top: 4rem;
+    display: grid;
+    justify-content: center;
+}
+
+.main_3 {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.main_4 {
+    margin-top: 4rem;
+    display: grid;
+    justify-content: center;
+}
+
+.main_5 {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .main_5 {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px;
+    }
+
+}
+
+
+
+
+
+.main_6 {
+    padding: 10px;
+}
+
+.brClass {
+    background: grey;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    --tw-ring-color: rgb(254 202 202);
+}
+
+.subClass {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+}
+
+.imgClass {
+    width: 100%;
+    height: 100%;
+}
+
+.subClass_1 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    padding: 30px;
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .subClass_1 {
+        display: grid;
+        grid-template-columns: none;
+        gap: 1rem;
+        padding: 0px;
+
+
+
+    }
+
+}
+
+.btn_primary {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn_secondary {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.wt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.wt_1 {
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+}
+
+.subClass_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.br_2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.br_3 {
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.br_4 {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.textClass {
+    margin-left: 10px;
+
+}
+
+.input {
+    width: 100%;
+}
+
+.main_7 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.formClass {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formClass_1 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formClass_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.main_8 {
+    display: flex;
+    justify-content: end;
+}
+
+.footerCLass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10rem;
+    padding: 10px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .footerCLass {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 25rem;
+        padding: 10px;
+        color: white;
+    }
+
+    .br_2 {
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        background-color: white;
+        width: 100%;
+        padding: 10px;
+        max-height: 5rem;
+        font-size: 10px;
+    }
+
+    .br_3 {
+        border: 1px solid red;
+        border-radius: 10px;
+        display: flex;
+        background-color: black;
+        width: 100%;
+        padding: 10px;
+        max-height: 5rem;
+        font-size: 10px;
+        margin-top: 1rem;
+    }
+
+    .br_4 {
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        background-color: white;
+        width: 100%;
+        padding: 10px;
+        max-height: 5rem;
+        font-size: 10px;
+        margin-top: 1rem;
+    }
+
+    .brClass {
+        background: grey;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        font-size: 10px;
+        box-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        --tw-ring-color: rgb(254 202 202);
+    }
+
+    .main_8{
+        display: grid;
+        justify-items: end;
+    }
+
+    .main_1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        max-height: 12rem;
+        padding: 10px;
+    }
+
+    .subClass {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 10px;
+        font-size: 10px;
+        max-height: 12rem;
+    }
+}
